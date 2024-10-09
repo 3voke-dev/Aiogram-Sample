@@ -68,6 +68,6 @@ class BotApp:
 
 # Запуск бота
 if __name__ == '__main__':
-    API_TOKEN = 'ключ апи'
+    API_TOKEN = '8152527355:AAFowmj0IYPUJNI4HB5PrVTG0yy35co1xVA'
     bot_app = BotApp(token=API_TOKEN)
     asyncio.run(bot_app.run())
